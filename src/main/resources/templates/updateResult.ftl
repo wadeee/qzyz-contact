@@ -13,7 +13,7 @@
 	<div class="row">
 		<div class="col-xs-10 col-xs-offset-1">
 			<div class="col-xs-6">
-				<a class="form-control btn btn-primary" href="/高三一班通讯录.xlsx">下载EXCEL</a>
+				<a class="form-control btn btn-primary" href="https://storage.googleapis.com/qzyz-contact.appspot.com/%E9%AB%98%E4%B8%89%E4%B8%80%E7%8F%AD%E9%80%9A%E8%AE%AF%E5%BD%95.xlsx">下载EXCEL</a>
 			</div>
 			<div class="col-xs-6">
 				<a class="form-control btn btn-primary" href="/">返回</a>
