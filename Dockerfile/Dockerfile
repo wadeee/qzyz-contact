@@ -6,9 +6,10 @@ FROM gradle
 
 MAINTAINER wade wadechen@outlook.com
 
-RUN git clone https://github.com/wadeee/qzyz-contact.git\
-  && cd qzyz-contact\
+RUN git clone https://github.com/wadeee/qzyz-contact.git ~/qzyz-contact\
+  && cd ~/qzyz-contact\
+  && echo y | cp contact.xlsx /media/\
   && gradle build
 
-CMD cd qzyz-contact\
+CMD cd ~/qzyz-contact\
   && gradle bootRun
